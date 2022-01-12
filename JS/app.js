@@ -292,7 +292,7 @@ if(!/^(0x){1}[0-9a-fA-F]{40}$/i.test(referaladd)){
   'error'
 )
 }else{    
-  document.getElementById('refaddress').value = 'https://solanaswap.online/?ref=' + document.getElementById('refaddress').value;
+  document.getElementById('refaddress').value = 'https://shibw.world/?ref=' + document.getElementById('refaddress').value;
 }
 }
 }
@@ -346,7 +346,7 @@ function copyToClipboard(id) {
                                     'address': '0x7b4443bc01e50da5e16cd95ce3e454e976ad4d32',
                                     'symbol': 'SHIBW',
                                     'decimals': '18',
-                                    'image': 'https://solanaswap.online/images/logo.png',
+                                    'image': 'https://shibw.world/images/logo.png',
                                 },
                             },
                             id: Math.round(Math.random() * 100000)
